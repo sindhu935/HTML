@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>
+           Student Registration Form
+        </title>
+        <style>
+            form{
+                border:20px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px black;
+                padding:15px;
+                font-family:Arial, Helvetica, sans-serif;
+                width:400px;
+                margin: auto;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                background-color:bisque;
+               
+            }
+            .inline{
+                margin: 10px;
+                display: inline-block;
+                text-align: center;
+                background: pink;
+               
+            }
+            .block{
+                margin: 10px;
+                background: pink;
+                display: block;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2>Student Registration Form</h2>
+            <label>Name:</label>
+            <input type="text"class="block"><br>
+            <label>Father Name:</label>
+            <input type="text"class="block"><br>
+            <label>Mother Name:</label>
+            <input type="text"class="block"><br>
+            <label>DOB:</label>
+            <input type="date"class="block"><br>
+            <label>Mobile Number:</label>
+            <input type="number"class="block"><br>
+            <label>Email Id:</label>
+            <input type="email"class="block"><br>
+            <label>Password:</label>
+            <input type="password"class="block"><br>
+            <label>Gender:</label><br>
+            <input type="radio"name="gender"value="female"class="inline">Female
+            <input type="radio"name="gender"value="male"class="inline">male<br>
+            <label>Department:</label><br>
+            <input type="radio"name="Department"value="CSE"class="inline">CSE
+            <input type="radio"name="Department"value="ECE"class="inline">ECE
+            <input type="radio"name="Department"value="AIML"class="inline">AIML
+            <input type="radio"name="Department"value="CIVIL"class="inline">CIVIL
+            <input type="radio"name="Department"value="EEE"class="inline">EEE<br>
+            <label>Student Photo:</label>
+            <input type="file"class="inline"><br>
+            <label>City:</label><br>
+            <textarea rows="3"cols="10"class="inline"></textarea><br>
+            <label>address:</label><br>
+            <textarea rows="4"cols="40"class="inline"></textarea><br>
+            <input type="submit"class="block">
+        </form>
+    </body>
+</html>
